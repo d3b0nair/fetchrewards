@@ -22,7 +22,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
   };
   return (
     <>
-      <div className="h-screen max-w-[1600px] scroll-smooth mx-auto max-h-max font-sans overflow-hidden selection:bg-pink-400 selection:text-white">
+      <div className="xl:mx-auto max-w-[1600px] scroll-smooth mx-auto max-h-max font-sans overflow-hidden selection:bg-pink-400 selection:text-white">
         <span
           className={`${
             isSkipLinkDisplayed
@@ -37,7 +37,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
         </span>
         <Header />
         <main
-          className="focus:outline-8 mx-auto px-6 md:px-14 xl:px-24"
+          className="flex h-full w-full focus:outline-8 mx-auto px-6 md:px-14 xl:px-24 min-h-calc"
           ref={bodyRef}
           tabIndex={0}
           role="main"
