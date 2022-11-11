@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      minHeight: {
+        calc: 'calc(100vh - 42px - 80px);', //80px header Y margin, 42px header element size
+      },
       animation: {
         ripple: 'ripple 1s',
       },
