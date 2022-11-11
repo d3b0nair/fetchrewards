@@ -1,5 +1,5 @@
-import { DetailedHTMLProps, HTMLAttributes } from 'react';
 import useRipple from '../../hooks/useRipple';
+import { RippleEffectProps } from './RippleEffect.props';
 
 export const RippleEffect = ({
   duration,
@@ -30,10 +30,3 @@ export const RippleEffect = ({
     </div>
   );
 };
-
-interface RippleEffectProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-  bgColor: string;
-  duration: number;
-  rippleSize?: number;
-}
