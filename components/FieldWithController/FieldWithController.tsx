@@ -14,7 +14,7 @@ export const FieldWithController = ({
   children,
 }: FieldWithControllerProps): JSX.Element => {
   return (
-    <span className={`${className ? className : ''} relative mb-4`}>
+    <span className={`${className ? className : ''} relative mb-4 sm:mb-2`}>
       {label && (
         <label
           htmlFor={id ? id : type}

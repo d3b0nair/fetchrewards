@@ -39,7 +39,7 @@ export const UserRegistrationForm = ({
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
   const [canShowPasswordStrength, setCanShowPasswordStrength] =
     useState<boolean>(false);
-  const [hidePassword, setHidePassword] = useState(false);
+  const [hidePassword, setHidePassword] = useState(true);
 
   useEffect(() => {
     if (Object.keys(errors).length !== 0) {
