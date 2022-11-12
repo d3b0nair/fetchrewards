@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <br />
 <div align="center">
 
@@ -57,7 +58,11 @@ This is a front-end for the user registration form. I built it on Typescript to 
 
 ### Built With
 
+* [![Typescript][Typescript]][Typescript-url]
 * [![Next][Next.js]][Next-url]
+* [![Tailwind CSS][Tailwind CSS]][Tailwind-url]
+* [![React Hook Form][React Hook Form]][React-Hook-Form-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +165,12 @@ Use this space to list resources you find helpful and would like to give credit 
 
 
 
-[license-url]: https://github.com/d3b0nair/fetchrewards/blob/production/LICENSE
+[Typescript]:https://img.shields.io/badge/Typescript-blue?style=for-the-badge&logo=Typescript&logoColor=white
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Tailwind CSS]:https://img.shields.io/badge/tailwind%20css-fff?style=for-the-badge&logo=tailwindcss&logoColor=green
+[React Hook Form]:https://img.shields.io/badge/React%20Hook%20Form-081229?style=for-the-badge&logo=react-hook-form&logoColor=pink
+[license-url]: https://github.com/d3b0nair/fetchrewards/blob/production/LICENSE
 [Next-url]: https://nextjs.org/
+[Tailwind-url]: https://tailwindcss.com/
+[React-Hook-Form-url]: https://react-hook-form.com/
+[Typescript-url]:https://www.typescriptlang.org/
